@@ -1,0 +1,5 @@
+category: X11
+requires: cygwin libX11_6
+external-source: libXfixes
+sdesc: "Xorg Xfixes library (runtime)"
+ldesc: "Xorg Xfixes library"
