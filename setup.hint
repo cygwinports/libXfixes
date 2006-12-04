@@ -1,4 +1,3 @@
 category: X11
-requires: cygwin libX11 fixesproto xproto
-sdesc: "Xorg Xfixes library (development)"
+sdesc: "Xorg Xfixes library (documentation)"
 ldesc: "Xorg Xfixes library"
