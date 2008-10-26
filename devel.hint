@@ -1,5 +1,5 @@
 category: X11
-requires: cygwin libX11-devel fixesproto xproto
+requires: cygwin libX11-devel fixesproto xproto libXfixes3
 external-source: libXfixes
-sdesc: "Xorg Xfixes library (development)"
-ldesc: "Xorg Xfixes library"
+sdesc: "X.Org Xfixes library (development)"
+ldesc: "X.Org Xfixes library"
