@@ -3,25 +3,26 @@ libXfixes
 X.Org Xfixes library
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libX11_6-1.1.5-1
+  cygwin-1.7.0-43
+  libgcc1-4.3.2-2
+  libX11_6-1.2-10
 
 Build requirements:
 (besides corresponding devel packages)
-  autoconf2.5-2.63-1
-  automake1.9-1.9.6-2
+  autoconf2.5-2.63-10
+  automake1.9-1.9.6-10
   binutils-20080624-2
-  cygport-0.4.3-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  libtool-2.2.6a-1
-  make-3.81-1
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  libtool-2.2.7a-1
+  make-3.81-2
   pkg-config-0.23a-2
   sed-4.1.5-2
   fixesproto-4.0-1
-  xextproto-7.0.3-1
-  xorg-util-macros-1.1.6-1
-  xproto-7.0.14-1
+  xextproto-7.0.5-1
+  xorg-util-macros-1.2.1-1
+  xproto-7.0.15-1
 
 Canonical website:
   http://xorg.freedesktop.org/
@@ -40,7 +41,6 @@ Build instructions:
 
 This will create:
   /usr/src/libXfixes-4.0.3-X-src.tar.bz2
-  /usr/src/libXfixes-4.0.3-X.tar.bz2
   /usr/src/libXfixes-devel-4.0.3-X.tar.bz2
   /usr/src/libXfixes3-4.0.3-X.tar.bz2
 
@@ -50,11 +50,10 @@ Files included in the binary packages:
 
 (libXfixes3)
   /usr/bin/cygXfixes-3.dll
-  /usr/share/doc/libXfixes-4.0.3/AUTHORS
-  /usr/share/doc/libXfixes-4.0.3/COPYING
-  /usr/share/doc/libXfixes-4.0.3/ChangeLog
-  /usr/share/doc/libXfixes-4.0.3/INSTALL
-  /usr/share/doc/libXfixes-4.0.3/README
+  /usr/share/doc/libXfixes/AUTHORS
+  /usr/share/doc/libXfixes/COPYING
+  /usr/share/doc/libXfixes/ChangeLog
+  /usr/share/doc/libXfixes/README
 
 (libXfixes-devel)
   /usr/include/X11/extensions/Xfixes.h
@@ -68,17 +67,8 @@ Files included in the binary packages:
 
 Port Notes:
 
------ version 4.0.3-2 -----
-Rebuilt.
-
------ version 4.0.3-1 -----
-X11R7.2 version bump.
-
------ version 4.0.1-1 -----
-X11R7.1 version bump.
-
------ version 3.0.1.2-1 -----
-Initial Cygwin release of modular X11R7.0.
+----- version 4.0.3-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
