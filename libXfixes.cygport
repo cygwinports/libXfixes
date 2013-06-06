@@ -1,12 +1,12 @@
 inherit xorg
 
 NAME="libXfixes"
-VERSION=5.0
+VERSION=5.0.1
 RELEASE=1
 CATEGORY="X11"
 SUMMARY="X.Org Xfixes library"
 DESCRIPTION="X.Org Xfixes library"
 
-PKG_NAMES="${PN}3 ${PN}-devel"
+PKG_NAMES="${NAME}3 ${NAME}-devel"
 libXfixes3_CONTENTS="usr/bin/cygXfixes-3.dll usr/share/doc/"
 libXfixes_devel_CONTENTS="usr/include/ usr/lib/ usr/share/man/"
