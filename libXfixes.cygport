@@ -1,7 +1,7 @@
 inherit xorg
 
 NAME="libXfixes"
-VERSION=5.0.1
+VERSION=5.0.3
 RELEASE=1
 CATEGORY="X11"
 SUMMARY="X.Org Xfixes library"
