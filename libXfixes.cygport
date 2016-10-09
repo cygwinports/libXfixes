@@ -3,7 +3,7 @@ inherit xorg
 NAME="libXfixes"
 VERSION=5.0.3
 RELEASE=1
-CATEGORY="X11"
+CATEGORY="Libs"
 SUMMARY="X.Org Xfixes library"
 DESCRIPTION="X.Org Xfixes library"
 
